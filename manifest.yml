@@ -42,11 +42,105 @@ courses:
       2025-4401, Cleared 03 Sep 2025"
     timeToComplete: 1140
   - id: f42ef591-8851-43f2-a662-82f82d7b4694
-    contents: []
+    contents:
+      - id: 7db356e9-7325-48fc-83f4-adb487c1e8be
+        name: Disclaimer
+        type: SCORM
+        entrypoint: index.html
+      - id: 441d3611-fb1d-4eb5-9897-c41e148c0680
+        name: Intro
+        type: SCORM
+        entrypoint: index.html
+      - id: d04ca36c-521b-4ea0-a077-2949229f6532
+        name: Understanding Stress
+        type: SUBMODULE
+        children:
+          - id: 5db62ec8-1931-492f-8256-180ebbdf66a8
+            name: Learning Objectives
+            type: SCORM
+            entrypoint: index.html
+          - id: 3e62bc8a-57b8-4529-87f5-286d47b9350c
+            name: What is Stress?
+            type: SCORM
+            entrypoint: index.html
+          - id: 79236de5-3aba-48ca-bfb2-dc06657567a5
+            name: Knowledge Check I
+            type: SCORM
+            entrypoint: index.html
+          - id: 52ad0003-d1c8-4dfc-aed6-3a920c0b3f0d
+            name: Allostatic Load and Physical Stress
+            type: SCORM
+            entrypoint: index.html
+          - id: 1741063b-c46f-40e7-910e-155a946f6d26
+            name: Knowledge Check II
+            type: SCORM
+            entrypoint: index.html
+          - id: 1bb0e887-5716-4eab-8167-a2f64ffb9dab
+            name: Apply What You've Learned
+            type: SCORM
+            entrypoint: index.html
+      - id: c46cc99f-3014-4b31-a380-da51785c3127
+        name: Broad Coping Mechanisms
+        type: SUBMODULE
+        children:
+          - id: 0be26d45-7c34-4f60-9c13-72b55040b3fa
+            name: Learning Objectives
+            type: SCORM
+            entrypoint: index.html
+          - id: 860227d7-61c0-43ca-a3a3-b8b52ef9f79d
+            name: Example Techniques
+            type: SCORM
+            entrypoint: index.html
+          - id: 83091b70-a52e-42d6-94d0-c5a1d65aa5c3
+            name: Knowledge Check
+            type: SCORM
+            entrypoint: index.html
+      - id: 6b46ac6d-ea4b-4abe-bc1d-278e5ecc2aec
+        name: Stress Reduction Strategies
+        type: SUBMODULE
+        children:
+          - id: ed64ffd2-cbb5-46d0-9ddf-1dd148335bbc
+            name: Learning Objectives
+            type: SCORM
+            entrypoint: index.html
+          - id: dee481c2-78f9-4e87-a46d-91264bbaeb6d
+            name: Example Techniques
+            type: SCORM
+            entrypoint: index.html
+          - id: 7a12468e-4377-4da1-8f0c-bc45775c52a6
+            name: Knowledge Check I
+            type: SCORM
+            entrypoint: index.html
+          - id: b1e017d1-a087-464b-88f0-d7efc3e4a104
+            name: Mindfulness Based Stress Reduction
+            type: SCORM
+            entrypoint: index.html
+          - id: 6f2e6179-07d3-4804-86fb-80dc19f9f759
+            name: Knowledge Check II
+            type: SCORM
+            entrypoint: index.html
+      - id: 75b820c9-2d76-40a9-aefe-4b418dc8383c
+        name: Plan and Prevent
+        type: SUBMODULE
+        children:
+          - id: bcb56417-66f0-4e22-9183-413834844f0e
+            name: Learning Objectives
+            type: SCORM
+            entrypoint: index.html
+          - id: 81f85e73-cf90-4adf-a1fd-a4792f950f5c
+            name: Plan and Prevent Techniques
+            type: SCORM
+            entrypoint: index.html
+          - id: a299d6d1-43a8-4679-830d-9b73478b5ecb
+            name: Knowledge Check
+            type: SCORM
+            entrypoint: index.html
     name: Stress Reduction
     roleIds:
       - 381c0acb-fac4-47e2-b358-b822eccad425
+    img: f52b6fde-6fe6-42e7-9429-9c3620b20f65.png
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
       2025-4633, Cleared 15 Sep 2025"
+    timeToComplete: 960
 prequizzes: []
 postquizzes: []
