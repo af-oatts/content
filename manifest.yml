@@ -1,0 +1,52 @@
+schema: "2.0"
+versionNumber: 1.0.0
+allowDataCollection: false
+roles:
+  - id: 381c0acb-fac4-47e2-b358-b822eccad425
+    name: Default
+    general: true
+courses:
+  - id: 777c1ec0-8498-41c3-be37-b0055243ecac
+    contents:
+      - id: eb4e6602-c65b-4145-9067-578830f8f99a
+        name: Learning Objectives
+        type: SCORM
+        entrypoint: index.html
+        description: ""
+      - id: e060ac64-0356-4c9e-8b04-7a372e76e478
+        name: Knowledge Check II
+        type: SCORM
+        entrypoint: index.html
+        description: null
+      - id: 25914e12-134d-4089-8f35-d86551e5035b
+        name: Verbal Analogies Basics
+        type: SCORM
+        entrypoint: index.html
+        description: null
+      - id: dbdb2ca8-c132-448d-8056-ed9c2931b9b8
+        name: Walkthrough
+        type: SCORM
+        entrypoint: index.html
+        description: null
+      - id: a4efb98c-41a7-40a4-860a-3859041ed4ba
+        name: Knowledge Check I
+        type: SCORM
+        entrypoint: index.html
+        description: null
+    name: Verbal Analogies
+    roleIds:
+      - 381c0acb-fac4-47e2-b358-b822eccad425
+    description: null
+    img: c8dfd233-4c8a-4dbc-804b-0d2a234b9f42.jpg
+    paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
+      2025-4401, Cleared 03 Sep 2025"
+    timeToComplete: 1140
+  - id: f42ef591-8851-43f2-a662-82f82d7b4694
+    contents: []
+    name: Stress Reduction
+    roleIds:
+      - 381c0acb-fac4-47e2-b358-b822eccad425
+    paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
+      2025-4633, Cleared 15 Sep 2025"
+prequizzes: []
+postquizzes: []
