@@ -708,5 +708,42 @@ courses:
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
       2025-4631, Cleared 15 Sep 2025"
     timeToComplete: 1500
+  - id: fe93503e-29e7-4203-90ec-7cec7ac6dc41
+    contents:
+      - id: 72eb7d38-beb8-4e4c-854e-9ee492d13e6e
+        name: Learning Objectives
+        type: SCORM
+        entrypoint: index.html
+      - id: 59b2b4f7-44cb-417f-afb0-94eabda9fa1a
+        name: Background Information
+        type: SCORM
+        entrypoint: index.html
+      - id: 5edef4d5-5563-4572-acf2-b6af235be95f
+        name: Strategies for Studying
+        type: SCORM
+        entrypoint: index.html
+      - id: 8cf991de-d9a9-4dbc-a558-20553f297e07
+        name: Parts of a Word
+        type: SCORM
+        entrypoint: index.html
+      - id: 62ae7798-4f7f-402f-b010-f8aeeed1640f
+        name: Example Walkthrough
+        type: SCORM
+        entrypoint: index.html
+      - id: a7d60df3-70f6-4408-b825-76843c6680b5
+        name: Knowledge Check I
+        type: SCORM
+        entrypoint: index.html
+      - id: 830cc584-ec3c-4903-8a6f-321f3ffb8230
+        name: Knowledge Check II
+        type: SCORM
+        entrypoint: index.html
+    name: Word Knowledge
+    roleIds:
+      - 381c0acb-fac4-47e2-b358-b822eccad425
+    img: ee4f54a0-1953-43a5-85f7-51e59afe978f.jpg
+    paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
+      2025-4631, Cleared 15 Sep 2025"
+    timeToComplete: 840
 prequizzes: []
 postquizzes: []
