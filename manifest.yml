@@ -373,5 +373,69 @@ courses:
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
       2025-4633, Cleared 15 Sep 2025"
     timeToComplete: 240
+  - id: f2d9fbc9-df22-4fa1-b1ae-02476bfea0d5
+    contents:
+      - id: a89707fa-6c03-4511-9549-ecaa7e8175a5
+        name: Learning Objectives
+        type: SCORM
+        entrypoint: index.html
+      - id: f0fe6b62-2c59-4b18-8e41-e4e8ea22bbc5
+        name: Terminology
+        type: SCORM
+        entrypoint: index.html
+      - id: c19ed34a-b6ff-4606-abe3-aa07943323a4
+        name: Order of Operations
+        type: SCORM
+        entrypoint: index.html
+      - id: 53bb6c89-5a5f-4bf5-a3a0-e8ddbbd06168
+        name: Fractions
+        type: SCORM
+        entrypoint: index.html
+      - id: 03919b59-6a00-4fb0-a6c3-df03cf211da0
+        name: Exponents
+        type: SCORM
+        entrypoint: index.html
+      - id: 2434d30e-cff7-4e1b-9690-52ffec251695
+        name: Absolute Values
+        type: SCORM
+        entrypoint: index.html
+      - id: 9562233a-b0b2-48b3-8687-af015d8540e1
+        name: Proportions
+        type: SCORM
+        entrypoint: index.html
+      - id: 317519c8-5ad3-40b1-b133-5724d548b88c
+        name: Factoring
+        type: SCORM
+        entrypoint: index.html
+      - id: adbbd5db-a477-4279-bb97-8405b2affbdf
+        name: Graphing
+        type: SCORM
+        entrypoint: index.html
+      - id: 4530ad3d-2a59-4440-b95a-67d121a09f3e
+        name: Geometry
+        type: SCORM
+        entrypoint: index.html
+      - id: 3e724b94-f670-40da-a86b-839e569c62f9
+        name: Pythagorean Theorem
+        type: SCORM
+        entrypoint: index.html
+      - id: 7c630b75-91c6-4264-8253-bee1425fbb11
+        name: Example Walkthrough
+        type: SCORM
+        entrypoint: index.html
+      - id: 4563c91e-12cb-4933-9187-518514dffda1
+        name: Knowledge Check I
+        type: SCORM
+        entrypoint: index.html
+      - id: c82e4743-c6e2-477b-86a3-383d2217be80
+        name: Knowledge Check II
+        type: SCORM
+        entrypoint: index.html
+    name: Math Knowledge
+    roleIds:
+      - 381c0acb-fac4-47e2-b358-b822eccad425
+    paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
+      2025-4206, Cleared 21 Aug 2025"
+    timeToComplete: 840
 prequizzes: []
 postquizzes: []
