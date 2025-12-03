@@ -264,7 +264,7 @@ courses:
             entrypoint: index.html
           - id: 29d69714-3e6e-48ee-846e-7e361437ced7
             name: Intervention and Reduction Strategies
-            type: HTML
+            type: SCORM
             entrypoint: index.html
           - id: be6d42c4-450c-4b15-a5e9-e4bd30e21c71
             name: Self Reflection
