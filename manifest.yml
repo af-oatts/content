@@ -399,6 +399,7 @@ courses:
     name: Math Knowledge
     roleIds:
       - 381c0acb-fac4-47e2-b358-b822eccad425
+    img: 7784ee76-3307-48f5-8d28-38c48e1ab8f0.jpg
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
       2025-4206, Cleared 21 Aug 2025"
     timeToComplete: 840
@@ -466,6 +467,7 @@ courses:
     name: Reading Comprehension
     roleIds:
       - 381c0acb-fac4-47e2-b358-b822eccad425
+    img: 12e24568-3018-4c60-b94e-4f37b48036c6.jpg
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
       2025-4633, Cleared 15 Sep 2025"
     timeToComplete: 780
