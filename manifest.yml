@@ -531,5 +531,30 @@ courses:
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
       2025-4501, Cleared 08 Sep 2025"
     timeToComplete: 660
+  - id: b9a7e3e3-1903-428d-b8b9-15484cc8c03c
+    contents:
+      - id: 762c26be-18b9-46ef-935a-919075047c0f
+        name: Learning Objectives
+        type: SCORM
+        entrypoint: index.html
+      - id: a054592f-4729-4fec-9f72-5dbbf8dca683
+        name: Background Information
+        type: SCORM
+        entrypoint: index.html
+      - id: 4e1f4b62-e5b8-4aa1-8e1a-e89445fdd3cf
+        name: Walkthrough
+        type: SCORM
+        entrypoint: index.html
+      - id: 3ed4ce27-0d48-4799-a8ab-187eba83150a
+        name: Knowledge Check
+        type: SCORM
+        entrypoint: index.html
+    name: Block Counting
+    roleIds:
+      - 381c0acb-fac4-47e2-b358-b822eccad425
+    img: 54ebb39e-4652-48a1-b32a-57b5ca63dbce.jpg
+    paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
+      2025-4501, Cleared 08 Sep 2025"
+    timeToComplete: 300
 prequizzes: []
 postquizzes: []
