@@ -6,6 +6,87 @@ roles:
     name: Default
     general: true
 courses:
+  - id: e06c40be-c518-402a-8a05-296dea223421
+    contents:
+      - id: 8919fce5-a809-423a-b543-5c8a4bc8368b
+        name: Intro
+        type: SCORM
+        entrypoint: index.html
+      - id: f98bb410-909c-4891-8db1-828b6b8e3079
+        name: Mindset
+        type: SUBMODULE
+        children:
+          - id: f82f3a31-d3fe-4e0f-b4ab-aa670ae25e9d
+            name: Learning Objectives
+            type: SCORM
+            entrypoint: index.html
+          - id: f3d5ddfd-f2fb-45c6-a1fa-f82e2844b741
+            name: Growth v. Fixed Mindset
+            type: SCORM
+            entrypoint: index.html
+          - id: 311e1259-bd2d-4fe6-a877-0910c6a5161d
+            name: Knowledge Check
+            type: SCORM
+            entrypoint: index.html
+          - id: 3f7aab7a-50b5-498d-a003-a9459bdfd423
+            name: Self-Assessment
+            type: SCORM
+            entrypoint: index.html
+      - id: a3ddae85-297a-4033-a474-218061e4c6ef
+        name: Locus of Control
+        type: SUBMODULE
+        children:
+          - id: 8d059f3b-8073-4633-9e56-4d21d2edc6e5
+            name: Learning Objectives
+            type: SCORM
+            entrypoint: index.html
+          - id: e4fa932e-d000-4d45-815c-8e2da1f17690
+            name: Internal v. External Locus of Control
+            type: SCORM
+            entrypoint: index.html
+          - id: 8840422c-1683-4acc-86d5-1d795c281191
+            name: Knowledge Check
+            type: SCORM
+            entrypoint: index.html
+          - id: 5e1b2ffc-1ffe-4460-a5ff-f8c01707cfa8
+            name: Self-Assessment
+            type: SCORM
+            entrypoint: index.html
+          - id: fdc47d6d-ca1c-464b-87c8-c8ae9a29f7f2
+            name: Locus of Control Exercise
+            type: SCORM
+            entrypoint: index.html
+      - id: 389d1f9c-6799-41a5-8b12-cc490972add7
+        name: Time Management
+        type: SUBMODULE
+        children:
+          - id: c5153b96-64a2-4c7a-89cf-4b6cf1aee176
+            name: Learning Objectives
+            type: SCORM
+            entrypoint: index.html
+          - id: bcae9f3a-f6a1-460e-a7c1-f45a7757526d
+            name: What is Time Management?
+            type: SCORM
+            entrypoint: index.html
+          - id: 1926e459-4f74-4aa2-b3bd-4b390da18775
+            name: Time Management Exercise
+            type: SCORM
+            entrypoint: index.html
+          - id: 093db9ed-4041-4fda-8415-d6bc2159c06e
+            name: Self-Assessment
+            type: SCORM
+            entrypoint: index.html
+          - id: 8dfa2d30-7ef2-46de-b5df-7516c400dce0
+            name: Setting Goals
+            type: SCORM
+            entrypoint: index.html
+    name: Broad Test Taking Skills
+    roleIds:
+      - 381c0acb-fac4-47e2-b358-b822eccad425
+    img: 33045a3f-463d-42b1-a324-bb2eebea9102.png
+    paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
+      2025-4499, Cleared 08 Sep 2025"
+    timeToComplete: 960
   - id: 777c1ec0-8498-41c3-be37-b0055243ecac
     contents:
       - id: eb4e6602-c65b-4145-9067-578830f8f99a
