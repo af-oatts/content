@@ -500,7 +500,36 @@ courses:
       - 381c0acb-fac4-47e2-b358-b822eccad425
     img: 28834d24-339d-4437-879b-7194a092191c.jpg
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
-      2025-4501, Cleared 8 Sep 2025"
+      2025-4501, Cleared 08 Sep 2025"
     timeToComplete: 420
+  - id: 6725ceaa-1abf-4a30-9461-ecc025d2ec0a
+    contents:
+      - id: 8fe42963-569e-473c-84b0-fc3cbc0f422f
+        name: Learning Objectives
+        type: SCORM
+        entrypoint: index.html
+      - id: 37f91915-c65a-4fe7-81d2-c7745e9ab4ed
+        name: Background Information
+        type: SCORM
+        entrypoint: index.html
+      - id: 9e132fbc-5a8e-44ea-b685-d0565892d5f3
+        name: Examples Walkthrough
+        type: SCORM
+        entrypoint: index.html
+      - id: 4475e43b-16e6-4150-95b3-87ac2d9584f7
+        name: Knowledge Check I
+        type: SCORM
+        entrypoint: index.html
+      - id: 97839066-0263-4f84-8c65-cdb63a883a84
+        name: Knowledge Check II
+        type: SCORM
+        entrypoint: index.html
+    name: Table Reading
+    roleIds:
+      - 381c0acb-fac4-47e2-b358-b822eccad425
+    img: e9471973-6a8a-41b2-ae01-394ff23eafac.jpg
+    paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
+      2025-4501, Cleared 08 Sep 2025"
+    timeToComplete: 660
 prequizzes: []
 postquizzes: []
