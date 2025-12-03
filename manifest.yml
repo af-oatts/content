@@ -469,6 +469,39 @@ courses:
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
       2025-4633, Cleared 15 Sep 2025"
     timeToComplete: 780
+  - id: daded239-05bd-416a-b18d-55d6b7ffd5ef
+    contents:
+      - id: 61795c33-59cc-4f5f-bf8e-f12d684e28af
+        name: Learning Objectives
+        type: SCORM
+        entrypoint: index.html
+      - id: eb5b9e1f-9ad0-4171-ae1c-e1e8798e9c5f
+        name: Background Information
+        type: SCORM
+        entrypoint: index.html
+      - id: 350dd676-463a-4739-a84c-6730c8777c45
+        name: Strategies for Word Problems
+        type: SCORM
+        entrypoint: index.html
+      - id: be43ae6b-2b3b-453a-b63c-c81cd02d4292
+        name: Area of 2D Shapes
+        type: SCORM
+        entrypoint: index.html
+      - id: 33cc3910-539c-494e-a386-99e2c41082ce
+        name: Area of 3D Shapes
+        type: SCORM
+        entrypoint: index.html
+      - id: 48770fca-e399-4e55-8e33-4de7d80f7ebb
+        name: Knowledge Check
+        type: SCORM
+        entrypoint: index.html
+    name: Arithmetic Reasoning
+    roleIds:
+      - 381c0acb-fac4-47e2-b358-b822eccad425
+    img: e7ab0860-6749-4492-84ad-832d7996c639.jpg
+    paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
+      2025-4633, Cleared 15 Sep 2025"
+    timeToComplete: 600
   - id: 9373ddb3-fc82-44db-a39b-22b3a3d527e4
     contents:
       - id: 730cd900-6604-4eae-ac39-ca58c9b18377
