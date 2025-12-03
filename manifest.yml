@@ -591,5 +591,122 @@ courses:
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
       2025-4501, Cleared 08 Sep 2025"
     timeToComplete: 300
+  - id: 219e7e3e-d598-45ec-9bc9-9347b672ca1c
+    contents:
+      - id: 4b2aa824-4ba7-456c-8e67-0836f04b9a72
+        name: Learning Objectives
+        type: SCORM
+        entrypoint: index.html
+      - id: 4b373280-f409-4999-969e-aa8a1b721408
+        name: Brief Overview
+        type: SCORM
+        entrypoint: index.html
+      - id: 2d0862c1-13fb-4c42-9b39-30c5e998a110
+        name: Background Information
+        type: SCORM
+        entrypoint: index.html
+      - id: 621af7a2-7381-4dc7-988d-3524546c5eb6
+        name: Astronomy
+        type: SUBMODULE
+        children:
+          - id: 6dec32a9-edfd-4fb0-b719-32257eca7bb1
+            name: Astronomy Information
+            type: SCORM
+            entrypoint: index.html
+          - id: 28135fca-a9f1-4cb7-b9ec-2d65c6bef0ea
+            name: Knowledge Check
+            type: SCORM
+            entrypoint: index.html
+      - id: 6451bcac-500f-4a98-a95a-87b2a403790b
+        name: Chemistry
+        type: SUBMODULE
+        children:
+          - id: 903315a3-0b2d-42a0-a371-bdeb3e154203
+            name: Chemistry Information
+            type: SCORM
+            entrypoint: index.html
+          - id: ece4d79d-4884-4475-9b18-f4af5aa864d2
+            name: Knowledge Check
+            type: SCORM
+            entrypoint: index.html
+      - id: 51f171a8-336b-43c0-a2c8-708042c0cf1f
+        name: Atomic Physics
+        type: SUBMODULE
+        children:
+          - id: 6b5c45fe-c200-4e35-95a9-a80daae0e739
+            name: Atomic Physics Information
+            type: SCORM
+            entrypoint: index.html
+          - id: 238afb9e-5ec4-4379-bd25-1c3ada55762e
+            name: Knowledge Check
+            type: SCORM
+            entrypoint: index.html
+      - id: 17599636-d226-4e45-b657-70f23e1ec8b5
+        name: Electrical Physics
+        type: SUBMODULE
+        children:
+          - id: 16bc83bf-1b30-48a9-802f-017627ef79cc
+            name: Electrical Physics Information
+            type: SCORM
+            entrypoint: index.html
+          - id: fa6f84cf-c4e1-4923-88e6-634c14959f2a
+            name: Knowledge Check
+            type: SCORM
+            entrypoint: index.html
+      - id: f69b5033-696c-4d8b-9057-3a58ba7f74e6
+        name: Light Physics
+        type: SUBMODULE
+        children:
+          - id: edaf3a8e-b1bc-4a85-9514-72dcfa6574b6
+            name: Light Physics Information
+            type: SCORM
+            entrypoint: index.html
+          - id: 61b403eb-88b6-41cf-b3cb-1f4373306de9
+            name: Knowledge Check
+            type: SCORM
+            entrypoint: index.html
+      - id: e2db5a87-c3e4-447a-81b5-6338ed93bc54
+        name: Mechanical Physics
+        type: SUBMODULE
+        children:
+          - id: 2545e3f7-9951-4b1b-b7a4-e6832f6e2c2b
+            name: Mechanical Physics Information
+            type: SCORM
+            entrypoint: index.html
+          - id: 6152ed98-d013-4157-8452-2ce3014ec9f4
+            name: Knowledge Check
+            type: SCORM
+            entrypoint: index.html
+      - id: e1978c20-8432-42cd-a7f8-a2152128091f
+        name: Sound Physics
+        type: SUBMODULE
+        children:
+          - id: dc948dd2-ad7f-4f9e-881a-4f9cd9538102
+            name: Sound Physics Information
+            type: SCORM
+            entrypoint: index.html
+          - id: f9d2f6ad-5bc9-42f6-a036-28ecce3357de
+            name: Knowledge Check
+            type: SCORM
+            entrypoint: index.html
+      - id: fb0f0638-b082-4019-83b1-0499aee18948
+        name: Thermodynamics
+        type: SUBMODULE
+        children:
+          - id: 09e42384-46c6-4fab-925b-806523178d36
+            name: Thermodynamics Information
+            type: SCORM
+            entrypoint: index.html
+          - id: 0cffb6ac-a31b-4683-b847-9a8c56021228
+            name: Knowledge Check
+            type: SCORM
+            entrypoint: index.html
+    name: Physical Science
+    roleIds:
+      - 381c0acb-fac4-47e2-b358-b822eccad425
+    img: 96b44522-c384-4352-aaff-474a602f950c.jpg
+    paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
+      2025-4631, Cleared 15 Sep 2025"
+    timeToComplete: 600
 prequizzes: []
 postquizzes: []
