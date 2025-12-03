@@ -142,5 +142,134 @@ courses:
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
       2025-4633, Cleared 15 Sep 2025"
     timeToComplete: 960
+  - id: 8d322251-6761-4fcb-8bff-a517fc9d71c9
+    contents:
+      - id: 260347e2-b4a4-4ad8-87c5-9689ccf6de54
+        name: Disclaimer
+        type: SCORM
+        entrypoint: index.html
+      - id: efd4176f-dd91-413d-8d0d-81b4782caab0
+        name: Test Anxiety
+        type: SUBMODULE
+        children:
+          - id: 13516b1d-f474-4ad2-b1b3-73d8c7a8a3af
+            name: Learning Objectives
+            type: SCORM
+            entrypoint: index.html
+          - id: 3de8d18e-10b6-4d0e-975d-9905133d65e5
+            name: What is Test Anxiety?
+            type: SCORM
+            entrypoint: index.html
+          - id: 56ec4613-5968-44c1-98c4-870d1e8225fc
+            name: Knowledge Check
+            type: SCORM
+            entrypoint: index.html
+          - id: f0e5baf7-a5e0-4ddb-8d9f-7cbc4bffa493
+            name: Test Anxiety Symptoms
+            type: SCORM
+            entrypoint: index.html
+          - id: c832c003-9ad5-43f7-81d0-a25c84feade5
+            name: Irrational Thoughts
+            type: SCORM
+            entrypoint: index.html
+          - id: af36e1f5-70da-4d1c-aad3-5c4688595659
+            name: Reframing Your Thoughts
+            type: SCORM
+            entrypoint: index.html
+          - id: 8b807ca7-9dad-4203-8ebb-bd673ea2f986
+            name: Test Anxiety Exercise
+            type: SCORM
+            entrypoint: index.html
+          - id: e4556bd5-6362-40d6-9953-d5948732f33f
+            name: Strategies and Tips
+            type: SCORM
+            entrypoint: index.html
+          - id: 31e905f8-9420-49b3-8948-3f1a47e86a49
+            name: Additional Resources
+            type: SCORM
+            entrypoint: index.html
+          - id: 7e0687dc-4a7a-4b61-ae40-cc66c4c9739a
+            name: Overview
+            type: SCORM
+            entrypoint: index.html
+      - id: 2855861b-5edc-4921-8d49-1f4d9ea6c886
+        name: Stereotype Threat
+        type: SUBMODULE
+        children:
+          - id: bc96ec20-9644-4d8e-94cc-25c1ee2420b3
+            name: Learning Objectives
+            type: SCORM
+            entrypoint: index.html
+          - id: 076ff060-2d96-4674-86fc-924f7eafaae5
+            name: Stereotype Threat
+            type: SCORM
+            entrypoint: index.html
+          - id: 63c0cbb9-0d1b-44e3-84bc-4eb74217bf02
+            name: Multi-threat Framework
+            type: SCORM
+            entrypoint: index.html
+          - id: db10ff45-aea8-4551-b4dc-b0136955a97a
+            name: Knowledge Check
+            type: SCORM
+            entrypoint: index.html
+          - id: e3a51280-e621-456b-b260-2a42357615b1
+            name: Identity
+            type: SCORM
+            entrypoint: index.html
+          - id: 29d69714-3e6e-48ee-846e-7e361437ced7
+            name: Intervention and Reduction Strategies
+            type: HTML
+            entrypoint: index.html
+          - id: be6d42c4-450c-4b15-a5e9-e4bd30e21c71
+            name: Self Reflection
+            type: SCORM
+            entrypoint: index.html
+          - id: 15ac2640-e819-4011-a263-fb4e06f9a211
+            name: Action Plan
+            type: SCORM
+            entrypoint: index.html
+          - id: 2a93a7f6-2dd4-4889-a8a4-defac7e073df
+            name: Overview
+            type: SCORM
+            entrypoint: index.html
+      - id: 8c51d899-6c91-46b2-9d1e-5148d39f52f2
+        name: Math Anxiety
+        type: SUBMODULE
+        children:
+          - id: 66703b8d-4261-455b-bd9b-6a73997a5c30
+            name: Learning Objectives
+            type: SCORM
+            entrypoint: index.html
+          - id: 82bbb6db-038b-420c-b3b7-e14f0fcf2776
+            name: What is Math Anxiety?
+            type: SCORM
+            entrypoint: index.html
+          - id: af4589e2-2550-4edf-812b-be11a2ac3f91
+            name: Knowledge Check
+            type: SCORM
+            entrypoint: index.html
+          - id: 284f3f23-f7d7-4fe9-8d85-ff44eb81bb47
+            name: Reduction Strategies
+            type: SCORM
+            entrypoint: index.html
+          - id: 0bd6d38d-41bc-4d43-ad7c-5a259fb4f997
+            name: Math Study Tips
+            type: SCORM
+            entrypoint: index.html
+          - id: f3b739a9-1e7e-4490-a5d9-00624a6d1a5a
+            name: Math Tools
+            type: SCORM
+            entrypoint: index.html
+          - id: 211a204b-44a9-4621-a3b3-910534f68a90
+            name: Overview
+            type: SCORM
+            entrypoint: index.html
+    name: Test Anxiety
+    roleIds:
+      - 381c0acb-fac4-47e2-b358-b822eccad425
+    img: c8c4f079-cd6e-407e-b0b0-b58afe7560c6.png
+    paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
+      2025-4633, Cleared 15 Sep 2025"
+    timeToComplete: 1200
 prequizzes: []
 postquizzes: []
