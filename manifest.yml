@@ -707,6 +707,6 @@ courses:
     img: 96b44522-c384-4352-aaff-474a602f950c.jpg
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
       2025-4631, Cleared 15 Sep 2025"
-    timeToComplete: 600
+    timeToComplete: 1500
 prequizzes: []
 postquizzes: []
