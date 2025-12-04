@@ -316,7 +316,7 @@ courses:
     img: c8c4f079-cd6e-407e-b0b0-b58afe7560c6.png
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
       2025-4633, Cleared 15 Sep 2025"
-    timeToComplete: 1200
+    timeToComplete: 1500
   - id: 2948a91d-28ce-4130-b43e-ff787414665e
     contents:
       - id: 40afa9d9-070d-4148-aef7-7b9899cc918b
@@ -337,7 +337,7 @@ courses:
     img: 3d85a43a-e957-44ff-b8db-afbfcc658b5a.jpg
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
       2025-4633, Cleared 15 Sep 2025"
-    timeToComplete: 240
+    timeToComplete: 480
   - id: f2d9fbc9-df22-4fa1-b1ae-02476bfea0d5
     contents:
       - id: a89707fa-6c03-4511-9549-ecaa7e8175a5
@@ -402,7 +402,7 @@ courses:
     img: 7784ee76-3307-48f5-8d28-38c48e1ab8f0.jpg
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
       2025-4206, Cleared 21 Aug 2025"
-    timeToComplete: 840
+    timeToComplete: 1800
   - id: 777c1ec0-8498-41c3-be37-b0055243ecac
     contents:
       - id: eb4e6602-c65b-4145-9067-578830f8f99a
@@ -470,7 +470,7 @@ courses:
     img: 12e24568-3018-4c60-b94e-4f37b48036c6.jpg
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
       2025-4633, Cleared 15 Sep 2025"
-    timeToComplete: 780
+    timeToComplete: 1800
   - id: daded239-05bd-416a-b18d-55d6b7ffd5ef
     contents:
       - id: 61795c33-59cc-4f5f-bf8e-f12d684e28af
@@ -503,7 +503,7 @@ courses:
     img: e7ab0860-6749-4492-84ad-832d7996c639.jpg
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
       2025-4633, Cleared 15 Sep 2025"
-    timeToComplete: 600
+    timeToComplete: 1800
   - id: 9373ddb3-fc82-44db-a39b-22b3a3d527e4
     contents:
       - id: 730cd900-6604-4eae-ac39-ca58c9b18377
@@ -536,7 +536,7 @@ courses:
     img: 28834d24-339d-4437-879b-7194a092191c.jpg
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
       2025-4501, Cleared 08 Sep 2025"
-    timeToComplete: 420
+    timeToComplete: 300
   - id: 6725ceaa-1abf-4a30-9461-ecc025d2ec0a
     contents:
       - id: 8fe42963-569e-473c-84b0-fc3cbc0f422f
@@ -565,7 +565,7 @@ courses:
     img: e9471973-6a8a-41b2-ae01-394ff23eafac.jpg
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
       2025-4501, Cleared 08 Sep 2025"
-    timeToComplete: 660
+    timeToComplete: 960
   - id: b9a7e3e3-1903-428d-b8b9-15484cc8c03c
     contents:
       - id: 762c26be-18b9-46ef-935a-919075047c0f
@@ -590,7 +590,7 @@ courses:
     img: 54ebb39e-4652-48a1-b32a-57b5ca63dbce.jpg
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
       2025-4501, Cleared 08 Sep 2025"
-    timeToComplete: 300
+    timeToComplete: 600
   - id: 219e7e3e-d598-45ec-9bc9-9347b672ca1c
     contents:
       - id: 4b2aa824-4ba7-456c-8e67-0836f04b9a72
