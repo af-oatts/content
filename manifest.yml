@@ -745,5 +745,26 @@ courses:
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
       2025-4631, Cleared 15 Sep 2025"
     timeToComplete: 840
+  - id: 93e95134-3b8c-4243-9043-51aa6bf0c976
+    contents:
+      - id: 811535ba-1693-4d25-a865-d7431e912596
+        name: HTT
+        type: SCORM
+        entrypoint: index.html
+      - id: fbccac0e-f8b8-4355-86f4-c8dfcf192e2d
+        name: ATT
+        type: SCORM
+        entrypoint: index.html
+      - id: dd456fde-4432-487a-a7b0-35b830dedb3c
+        name: AHTT
+        type: SCORM
+        entrypoint: index.html
+    name: TBAS Practice
+    roleIds:
+      - 381c0acb-fac4-47e2-b358-b822eccad425
+    img: 595892f1-3089-4ecf-86ff-12dcc2aba5ae.jpg
+    paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
+      2025-4631, Cleared 15 Sep 2025"
+    timeToComplete: 480
 prequizzes: []
 postquizzes: []
