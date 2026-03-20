@@ -1,10 +1,31 @@
 schema: "2.0"
-versionNumber: 1.0.0
+versionNumber: 0.5.4
 allowDataCollection: false
 roles:
   - id: 381c0acb-fac4-47e2-b358-b822eccad425
     name: Default
     general: true
+  - general: false
+    id: 992847c9-a2a4-40a8-a524-24f5ed18ee35
+    name: Both_Tests
+  - general: false
+    id: a0cd90e0-73c3-4f9b-ba5e-4143d0fd65bc
+    name: AFOQT_Acad
+  - general: false
+    id: 1c9f7b6a-c718-4fb7-9352-f026f529ba5c
+    name: AFOQT_Quant
+  - general: false
+    id: 4a538cb7-bba5-4c1c-9d41-acdc70aa98cf
+    name: AFOQT_Verb
+  - general: false
+    id: 657c20e2-f03b-45f4-9943-ab23cee68f6b
+    name: Rated_career
+  - general: false
+    id: c629e018-63be-4c12-9456-1773a85e4519
+    name: TBAS_only
+  - general: false
+    id: 74f9875b-3868-49e8-82d4-7441e2727de9
+    name: AFOQT_full
 courses:
   - id: e06c40be-c518-402a-8a05-296dea223421
     contents:
@@ -68,10 +89,6 @@ courses:
             name: What is Time Management?
             type: SCORM
             entrypoint: index.html
-          - id: 1926e459-4f74-4aa2-b3bd-4b390da18775
-            name: Time Management Exercise
-            type: SCORM
-            entrypoint: index.html
           - id: 093db9ed-4041-4fda-8415-d6bc2159c06e
             name: Self-Assessment
             type: SCORM
@@ -81,8 +98,7 @@ courses:
             type: SCORM
             entrypoint: index.html
     name: Broad Test Taking Skills
-    roleIds:
-      - 381c0acb-fac4-47e2-b358-b822eccad425
+    roleIds: []
     img: 33045a3f-463d-42b1-a324-bb2eebea9102.png
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
       2025-4499, Cleared 08 Sep 2025"
@@ -161,10 +177,6 @@ courses:
             name: Mindfulness Based Stress Reduction
             type: SCORM
             entrypoint: index.html
-          - id: 6f2e6179-07d3-4804-86fb-80dc19f9f759
-            name: Knowledge Check II
-            type: SCORM
-            entrypoint: index.html
       - id: 75b820c9-2d76-40a9-aefe-4b418dc8383c
         name: Plan and Prevent
         type: SUBMODULE
@@ -182,8 +194,7 @@ courses:
             type: SCORM
             entrypoint: index.html
     name: Stress Reduction
-    roleIds:
-      - 381c0acb-fac4-47e2-b358-b822eccad425
+    roleIds: []
     img: f52b6fde-6fe6-42e7-9429-9c3620b20f65.png
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
       2025-4633, Cleared 15 Sep 2025"
@@ -230,10 +241,6 @@ courses:
             name: Strategies and Tips
             type: SCORM
             entrypoint: index.html
-          - id: 31e905f8-9420-49b3-8948-3f1a47e86a49
-            name: Additional Resources
-            type: SCORM
-            entrypoint: index.html
           - id: 7e0687dc-4a7a-4b61-ae40-cc66c4c9739a
             name: Overview
             type: SCORM
@@ -270,14 +277,14 @@ courses:
             name: Self Reflection
             type: SCORM
             entrypoint: index.html
-          - id: 15ac2640-e819-4011-a263-fb4e06f9a211
-            name: Action Plan
-            type: SCORM
-            entrypoint: index.html
           - id: 2a93a7f6-2dd4-4889-a8a4-defac7e073df
             name: Overview
             type: SCORM
             entrypoint: index.html
+          - id: f94988c5-7165-4a5d-ac2a-a4b9499facab
+            name: Action Plan
+            type: PDF
+            entrypoint: index.pdf
       - id: 8c51d899-6c91-46b2-9d1e-5148d39f52f2
         name: Math Anxiety
         type: SUBMODULE
@@ -298,12 +305,12 @@ courses:
             name: Reduction Strategies
             type: SCORM
             entrypoint: index.html
+          - id: b5eb84a5-f98a-4a3d-b3ee-f42ff6466e0d
+            name: Math Anxiety Tools
+            type: PDF
+            entrypoint: index.pdf
           - id: 0bd6d38d-41bc-4d43-ad7c-5a259fb4f997
             name: Math Anxiety Tips
-            type: SCORM
-            entrypoint: index.html
-          - id: f3b739a9-1e7e-4490-a5d9-00624a6d1a5a
-            name: Math Tools
             type: SCORM
             entrypoint: index.html
           - id: 211a204b-44a9-4621-a3b3-910534f68a90
@@ -311,440 +318,655 @@ courses:
             type: SCORM
             entrypoint: index.html
     name: Test Anxiety
-    roleIds:
-      - 381c0acb-fac4-47e2-b358-b822eccad425
+    roleIds: []
     img: c8c4f079-cd6e-407e-b0b0-b58afe7560c6.png
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
       2025-4633, Cleared 15 Sep 2025"
     timeToComplete: 1500
-  - id: 2948a91d-28ce-4130-b43e-ff787414665e
+  - id: 16f395af-28bf-4123-bd9c-23b64f84e5cc
     contents:
-      - id: 40afa9d9-070d-4148-aef7-7b9899cc918b
-        name: Learning Objectives
+      - id: d39bc3a0-c56e-4742-8dc9-2f8999e33ebb
+        name: AFOQT Introduction
         type: SCORM
         entrypoint: index.html
-      - id: 4c46797d-d643-4f6b-a655-1b365b73dbc9
+      - id: 40ceda92-39af-481f-a7c3-5e81fd5ea374
         name: Background Information
         type: SCORM
         entrypoint: index.html
-      - id: 7542c15a-6d36-4a47-a677-bb92d298f913
+      - id: ceb1a6cc-b9f7-42b6-b7b8-de381f3e8ef4
         name: Testing Information
         type: SCORM
         entrypoint: index.html
     name: AFOQT Basics
     roleIds:
-      - 381c0acb-fac4-47e2-b358-b822eccad425
-    img: 3d85a43a-e957-44ff-b8db-afbfcc658b5a.jpg
+      - a0cd90e0-73c3-4f9b-ba5e-4143d0fd65bc
+      - 1c9f7b6a-c718-4fb7-9352-f026f529ba5c
+      - 4a538cb7-bba5-4c1c-9d41-acdc70aa98cf
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - 657c20e2-f03b-45f4-9943-ab23cee68f6b
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    img: 8b334676-2746-47ad-ab5b-0e1b78a4cb4a.jpg
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
       2025-4633, Cleared 15 Sep 2025"
-    timeToComplete: 480
-  - id: f2d9fbc9-df22-4fa1-b1ae-02476bfea0d5
+  - id: 16b2ec83-181e-40ef-bcfe-7b2c822698f1
     contents:
-      - id: a89707fa-6c03-4511-9549-ecaa7e8175a5
-        name: Learning Objectives
-        type: SCORM
-        entrypoint: index.html
-      - id: f0fe6b62-2c59-4b18-8e41-e4e8ea22bbc5
-        name: Terminology
-        type: SCORM
-        entrypoint: index.html
-      - id: c19ed34a-b6ff-4606-abe3-aa07943323a4
-        name: Order of Operations
-        type: SCORM
-        entrypoint: index.html
-      - id: 53bb6c89-5a5f-4bf5-a3a0-e8ddbbd06168
-        name: Fractions
-        type: SCORM
-        entrypoint: index.html
-      - id: 03919b59-6a00-4fb0-a6c3-df03cf211da0
-        name: Exponents
-        type: SCORM
-        entrypoint: index.html
-      - id: 2434d30e-cff7-4e1b-9690-52ffec251695
-        name: Absolute Values
-        type: SCORM
-        entrypoint: index.html
-      - id: 9562233a-b0b2-48b3-8687-af015d8540e1
-        name: Proportions
-        type: SCORM
-        entrypoint: index.html
-      - id: 317519c8-5ad3-40b1-b133-5724d548b88c
-        name: Factoring
-        type: SCORM
-        entrypoint: index.html
-      - id: adbbd5db-a477-4279-bb97-8405b2affbdf
-        name: Graphing
-        type: SCORM
-        entrypoint: index.html
-      - id: 4530ad3d-2a59-4440-b95a-67d121a09f3e
-        name: Geometry
-        type: SCORM
-        entrypoint: index.html
-      - id: 3e724b94-f670-40da-a86b-839e569c62f9
-        name: Pythagorean Theorem
-        type: SCORM
-        entrypoint: index.html
-      - id: 7c630b75-91c6-4264-8253-bee1425fbb11
-        name: Example Walkthrough
-        type: SCORM
-        entrypoint: index.html
-      - id: 4563c91e-12cb-4933-9187-518514dffda1
-        name: Knowledge Check I
-        type: SCORM
-        entrypoint: index.html
-      - id: c82e4743-c6e2-477b-86a3-383d2217be80
-        name: Knowledge Check II
-        type: SCORM
-        entrypoint: index.html
-    name: Math Knowledge
-    roleIds:
-      - 381c0acb-fac4-47e2-b358-b822eccad425
-    img: 7784ee76-3307-48f5-8d28-38c48e1ab8f0.jpg
-    paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
-      2025-4206, Cleared 21 Aug 2025"
-    timeToComplete: 1800
-  - id: 777c1ec0-8498-41c3-be37-b0055243ecac
-    contents:
-      - id: eb4e6602-c65b-4145-9067-578830f8f99a
+      - id: ca5a8ead-2efa-4540-ae4a-d21ea851275f
         name: Learning Objectives
         type: SCORM
         entrypoint: index.html
         description: ""
-      - id: e060ac64-0356-4c9e-8b04-7a372e76e478
-        name: Knowledge Check II
+      - id: f0744ada-64f4-4a5b-9e61-775199e87b6d
+        name: Math Terms
         type: SCORM
         entrypoint: index.html
-        description: null
-      - id: 25914e12-134d-4089-8f35-d86551e5035b
+      - id: 786e3186-5256-4d23-ba27-9d48db496140
+        name: Order of Operations
+        type: SCORM
+        entrypoint: index.html
+      - id: 51dbe7a7-0b8d-40d1-a489-291faf2d30e6
+        name: Fractions
+        type: SCORM
+        entrypoint: index.html
+      - id: c019f57f-a78c-4bb1-b00e-cebd36183f89
+        name: Exponents
+        type: SCORM
+        entrypoint: index.html
+      - id: 5f2bc758-2ea2-44bb-93ef-95348fc3c5a4
+        name: Absolute Values
+        type: SCORM
+        entrypoint: index.html
+      - id: e10060f2-e09d-4dde-b8e0-262f070cbe6e
+        name: Proportions
+        type: SCORM
+        entrypoint: index.html
+      - id: 613d85a6-2387-4859-8c43-f0332ce6e82e
+        name: Factoring
+        type: SCORM
+        entrypoint: index.html
+      - id: d4050d7d-8b9f-4c9d-bb1c-20ea7be18e94
+        name: Graphing
+        type: SCORM
+        entrypoint: index.html
+      - id: 35220e93-51b0-4ccf-84a3-bc2aeba4a5df
+        name: Geometry
+        type: SCORM
+        entrypoint: index.html
+      - id: f87fc7f4-46b0-43b9-98ff-9ba7195d49a0
+        name: Pythagorean Theorem
+        type: SCORM
+        entrypoint: index.html
+      - id: 2e32e2f3-a7d2-4c68-b138-179d3f404b61
+        name: Examples Walkthroughs
+        type: PDF
+        entrypoint: index.pdf
+      - id: 80c2ee0e-897f-46da-b7b0-5267752ff3d1
+        name: Knowledge Check
+        type: SCORM
+        entrypoint: index.html
+      - id: e992536b-853a-4da6-9c17-33c91c64ab4f
+        name: Answer Key
+        type: PDF
+        entrypoint: index.pdf
+    name: Math Knowledge
+    roleIds:
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - a0cd90e0-73c3-4f9b-ba5e-4143d0fd65bc
+      - 1c9f7b6a-c718-4fb7-9352-f026f529ba5c
+      - 657c20e2-f03b-45f4-9943-ab23cee68f6b
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    img: 0956fdc3-52a8-420d-ae5e-51b7178c69c4.jpg
+    paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
+      2025-4206, Cleared 21 Aug 2025"
+  - id: 963eebfb-1290-4f37-82bf-334f6fc62256
+    contents:
+      - id: 2ba524a7-b44c-4b0d-9f24-6c3a840bcab6
+        name: Learning Objectives
+        type: SCORM
+        entrypoint: index.html
+      - id: 8fe5568e-e2e0-4ee0-a43c-8382016c1f53
         name: Verbal Analogies Basics
         type: SCORM
         entrypoint: index.html
-        description: null
-      - id: dbdb2ca8-c132-448d-8056-ed9c2931b9b8
-        name: Walkthrough
+      - id: 83bac850-cd60-4216-82e9-e7db6a370b14
+        name: Examples Walkthroughs
         type: SCORM
         entrypoint: index.html
-        description: null
-      - id: a4efb98c-41a7-40a4-860a-3859041ed4ba
-        name: Knowledge Check I
+      - id: 8ef6a7ea-3f84-45a4-8400-4bb22d5b311e
+        name: Knowledge Check
         type: SCORM
         entrypoint: index.html
-        description: null
+      - id: d02d6620-0a22-4422-bd07-fc5ff4a6d100
+        name: Answer Key
+        type: PDF
+        entrypoint: index.pdf
     name: Verbal Analogies
     roleIds:
-      - 381c0acb-fac4-47e2-b358-b822eccad425
-    description: null
-    img: c8dfd233-4c8a-4dbc-804b-0d2a234b9f42.jpg
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - a0cd90e0-73c3-4f9b-ba5e-4143d0fd65bc
+      - 4a538cb7-bba5-4c1c-9d41-acdc70aa98cf
+      - 657c20e2-f03b-45f4-9943-ab23cee68f6b
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    img: ccc5a2a6-571b-4248-ac8e-3e79bb207ffb.jpg
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
-      2025-4401, Cleared 03 Sep 2025"
-    timeToComplete: 1140
-  - id: 73ea3846-af9f-425b-a6fc-a13b8be55aea
+      2025-4401, Cleared 3 Sept 2025"
+  - id: 8432b3c1-f283-473f-81d7-9b1fdf41588b
     contents:
-      - id: 43274e1a-cca3-4263-b20b-7528647dbd07
+      - id: 39ddc071-9e35-41b2-a97e-7c01c5b75ffc
         name: Learning Objectives
         type: SCORM
         entrypoint: index.html
-      - id: fb610d80-c0e0-4868-9b0e-e79dd11db696
+      - id: 8a22504b-623e-4534-a9c6-e3d68fa61ea1
         name: Tips for Success
         type: SCORM
         entrypoint: index.html
-      - id: cb441e1a-72e3-4b18-8697-4e25e866f1df
+      - id: 7ad2f11f-84f3-4593-a6ff-364b88166e47
         name: Components of Reading Comprehension
         type: SCORM
         entrypoint: index.html
-      - id: 5ebac5d1-8577-4e9a-8064-766253066ca5
+      - id: 50033a9a-4180-419b-ae2f-3901709b00d1
         name: Passage Walkthrough
         type: SCORM
         entrypoint: index.html
-      - id: ae2de13b-87be-4a38-81a9-b7e1bd18d4c4
-        name: Knowledge Check I
+      - id: 356b31a8-839b-4969-94b9-3f0e2de950e0
+        name: Knowledge Check
         type: SCORM
         entrypoint: index.html
-      - id: 77324eb5-f143-45d9-8a74-f5cecee2ee6e
-        name: Knowledge Check II
-        type: SCORM
-        entrypoint: index.html
+      - id: 789057e3-9a83-4af8-85ec-12a9f6927cdf
+        name: Answer Key
+        type: PDF
+        entrypoint: index.pdf
     name: Reading Comprehension
     roleIds:
-      - 381c0acb-fac4-47e2-b358-b822eccad425
-    img: 12e24568-3018-4c60-b94e-4f37b48036c6.jpg
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - a0cd90e0-73c3-4f9b-ba5e-4143d0fd65bc
+      - 4a538cb7-bba5-4c1c-9d41-acdc70aa98cf
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    img: bcd1705e-ac62-4bf3-80a9-85dc7b61a090.jpg
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
-      2025-4633, Cleared 15 Sep 2025"
-    timeToComplete: 1800
-  - id: daded239-05bd-416a-b18d-55d6b7ffd5ef
+      2025-4633, Cleared 15 Sept 2025"
+  - id: 6b1a7a29-dd23-4b64-8882-9c9d5db4e541
     contents:
-      - id: 61795c33-59cc-4f5f-bf8e-f12d684e28af
+      - id: 161425ca-7514-4a28-865d-9f46cdb30c16
         name: Learning Objectives
         type: SCORM
         entrypoint: index.html
-      - id: eb5b9e1f-9ad0-4171-ae1c-e1e8798e9c5f
-        name: Background Information
+      - id: 8f262f2f-75f7-4050-afdc-9c017af30253
+        name: Arithmetic Reasoning Basics
         type: SCORM
         entrypoint: index.html
-      - id: 350dd676-463a-4739-a84c-6730c8777c45
+      - id: ed206b68-6dbd-4d45-914f-4121461b9481
+        name: Formula Sheet
+        type: PDF
+        entrypoint: index.pdf
+      - id: d030ad0f-3132-4868-b5b7-17c4e8b34801
         name: Strategies for Word Problems
         type: SCORM
         entrypoint: index.html
-      - id: be43ae6b-2b3b-453a-b63c-c81cd02d4292
+      - id: e63edf49-378b-4709-a4f1-a02f37ecd0ac
         name: Area of 2D Shapes
         type: SCORM
         entrypoint: index.html
-      - id: 33cc3910-539c-494e-a386-99e2c41082ce
+      - id: 0a97b0ac-a81a-487d-99ac-a53bec7d9673
         name: Area of 3D Shapes
         type: SCORM
         entrypoint: index.html
-      - id: 48770fca-e399-4e55-8e33-4de7d80f7ebb
+      - id: 4b18b64e-4f21-4738-a511-d8e3d3ed94ad
         name: Knowledge Check
         type: SCORM
         entrypoint: index.html
+      - id: 069b5991-567a-49a0-9313-8b0623ceb248
+        name: Answer Key
+        type: PDF
+        entrypoint: index.pdf
     name: Arithmetic Reasoning
     roleIds:
-      - 381c0acb-fac4-47e2-b358-b822eccad425
-    img: e7ab0860-6749-4492-84ad-832d7996c639.jpg
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - a0cd90e0-73c3-4f9b-ba5e-4143d0fd65bc
+      - 1c9f7b6a-c718-4fb7-9352-f026f529ba5c
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    img: 854b236f-8801-4c66-b34b-94849b4a30b5.jpg
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
-      2025-4633, Cleared 15 Sep 2025"
-    timeToComplete: 1800
-  - id: 9373ddb3-fc82-44db-a39b-22b3a3d527e4
+      2025-4633, Cleared 15 Sept 2025"
+  - id: 27b8a3be-ec59-400a-8b20-da48c1b64371
     contents:
-      - id: 730cd900-6604-4eae-ac39-ca58c9b18377
+      - id: a8fdc291-6490-4f6b-b2f8-dc308ca3d668
         name: Learning Objectives
         type: SCORM
         entrypoint: index.html
-      - id: 7b3953d8-ca85-4cc9-a85e-6dcd79b55673
+      - id: 694ba4d8-9a6b-4c60-83ef-bff882e8a87e
         name: Background Information
         type: SCORM
         entrypoint: index.html
-      - id: f8809355-71c0-40f6-909d-1fb97d162d01
-        name: Purpose
+      - id: 0cf807c8-a63e-4056-9768-caf6b1fac9dc
+        name: Purpose for the SDI-O
         type: SCORM
         entrypoint: index.html
-      - id: 31243931-8a88-4d40-9109-7026eaad3af5
+      - id: 5c6941b7-d7ae-4667-bf29-ecf5780f7ced
         name: Administration and Testing
         type: SCORM
         entrypoint: index.html
-      - id: 44f6c5f2-e30e-4cb6-bc6d-66b79b40fcf0
+      - id: 36992b4b-cb15-42e6-a38b-7880df39c5e1
         name: Knowledge Check
         type: SCORM
         entrypoint: index.html
-      - id: 4f2851de-25fc-4738-a4fa-a5669d2a32db
+      - id: 0b85e815-edd7-489a-981e-433b5337d6d9
+        name: Strategies for SDI-O
+        type: SCORM
+        entrypoint: index.html
+    name: Self-Description Inventory (SDI-O)
+    roleIds:
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    img: 4a3304b0-a816-459f-b827-df0d90e3ea7b.jpg
+    paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
+      2025-4501, Cleared 8 Sept 2025"
+  - id: bf507210-327a-407e-acdf-7c0ccc1fe225
+    contents:
+      - id: cbcff91e-ee66-4044-9cce-c52c876c4ac6
+        name: Learning Objectives
+        type: SCORM
+        entrypoint: index.html
+      - id: b21c7aaa-7b3e-4672-b415-973496887586
+        name: Overview
+        type: SCORM
+        entrypoint: index.html
+      - id: fd712919-1f9e-42a1-872b-bae9e51c4bfd
+        name: Aircraft Functions
+        type: SCORM
+        entrypoint: index.html
+      - id: 2c8b7c5a-762d-40aa-9fc9-abc42ee7d1d0
+        name: Aircraft Terminology
+        type: SCORM
+        entrypoint: index.html
+      - id: 389e456c-d547-48a2-aa0c-97c4b804c89e
+        name: Aircraft Operations
+        type: SCORM
+        entrypoint: index.html
+      - id: 54d408b0-2a07-4cd8-83c1-06defd2b92b0
+        name: Navigation
+        type: SCORM
+        entrypoint: index.html
+      - id: ee0d7376-fc7d-4c90-93a4-0dd8ecc0e968
         name: Strategies
         type: SCORM
         entrypoint: index.html
-    name: SDI-O
-    roleIds:
-      - 381c0acb-fac4-47e2-b358-b822eccad425
-    img: 28834d24-339d-4437-879b-7194a092191c.jpg
-    paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
-      2025-4501, Cleared 08 Sep 2025"
-    timeToComplete: 300
-  - id: 6725ceaa-1abf-4a30-9461-ecc025d2ec0a
-    contents:
-      - id: 8fe42963-569e-473c-84b0-fc3cbc0f422f
-        name: Learning Objectives
-        type: SCORM
-        entrypoint: index.html
-      - id: 37f91915-c65a-4fe7-81d2-c7745e9ab4ed
-        name: Background Information
-        type: SCORM
-        entrypoint: index.html
-      - id: 9e132fbc-5a8e-44ea-b685-d0565892d5f3
-        name: Examples Walkthrough
-        type: SCORM
-        entrypoint: index.html
-      - id: 4475e43b-16e6-4150-95b3-87ac2d9584f7
-        name: Knowledge Check I
-        type: SCORM
-        entrypoint: index.html
-      - id: 97839066-0263-4f84-8c65-cdb63a883a84
-        name: Knowledge Check II
-        type: SCORM
-        entrypoint: index.html
-    name: Table Reading
-    roleIds:
-      - 381c0acb-fac4-47e2-b358-b822eccad425
-    img: e9471973-6a8a-41b2-ae01-394ff23eafac.jpg
-    paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
-      2025-4501, Cleared 08 Sep 2025"
-    timeToComplete: 960
-  - id: b9a7e3e3-1903-428d-b8b9-15484cc8c03c
-    contents:
-      - id: 762c26be-18b9-46ef-935a-919075047c0f
-        name: Learning Objectives
-        type: SCORM
-        entrypoint: index.html
-      - id: a054592f-4729-4fec-9f72-5dbbf8dca683
-        name: Background Information
-        type: SCORM
-        entrypoint: index.html
-      - id: 4e1f4b62-e5b8-4aa1-8e1a-e89445fdd3cf
-        name: Walkthrough
-        type: SCORM
-        entrypoint: index.html
-      - id: 3ed4ce27-0d48-4799-a8ab-187eba83150a
+      - id: 90e61c8e-a12f-435e-8666-46b265487236
         name: Knowledge Check
         type: SCORM
         entrypoint: index.html
-    name: Block Counting
+      - id: 3848b9dd-e010-4ff7-8b51-d3697cb4f85f
+        name: Answer Key
+        type: PDF
+        entrypoint: index.pdf
+    name: Aviation Information
     roleIds:
-      - 381c0acb-fac4-47e2-b358-b822eccad425
-    img: 54ebb39e-4652-48a1-b32a-57b5ca63dbce.jpg
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - 657c20e2-f03b-45f4-9943-ab23cee68f6b
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    img: be256182-f3bc-4025-957a-e8b0c7b05ce3.jpg
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
-      2025-4501, Cleared 08 Sep 2025"
-    timeToComplete: 600
-  - id: 219e7e3e-d598-45ec-9bc9-9347b672ca1c
+      2025-4631, Cleared 15 Sept 2025"
+  - id: 5681908d-04da-482c-9f53-2958e3d71ca8
     contents:
-      - id: 4b2aa824-4ba7-456c-8e67-0836f04b9a72
+      - id: 00b29647-4758-4b2e-8d35-5ee0adefa335
         name: Learning Objectives
         type: SCORM
         entrypoint: index.html
-      - id: 4b373280-f409-4999-969e-aa8a1b721408
-        name: Brief Overview
+      - id: bd3835a2-1f7a-4943-ae11-c31fb0214693
+        name: Background
         type: SCORM
         entrypoint: index.html
-      - id: 2d0862c1-13fb-4c42-9b39-30c5e998a110
-        name: Background Information
-        type: SCORM
-        entrypoint: index.html
-      - id: 621af7a2-7381-4dc7-988d-3524546c5eb6
-        name: Astronomy
-        type: SUBMODULE
-        children:
-          - id: 6dec32a9-edfd-4fb0-b719-32257eca7bb1
-            name: Astronomy Information
-            type: SCORM
-            entrypoint: index.html
-          - id: 28135fca-a9f1-4cb7-b9ec-2d65c6bef0ea
-            name: Knowledge Check
-            type: SCORM
-            entrypoint: index.html
-      - id: 6451bcac-500f-4a98-a95a-87b2a403790b
-        name: Chemistry
-        type: SUBMODULE
-        children:
-          - id: 903315a3-0b2d-42a0-a371-bdeb3e154203
-            name: Chemistry Information
-            type: SCORM
-            entrypoint: index.html
-          - id: ece4d79d-4884-4475-9b18-f4af5aa864d2
-            name: Knowledge Check
-            type: SCORM
-            entrypoint: index.html
-      - id: 51f171a8-336b-43c0-a2c8-708042c0cf1f
-        name: Atomic Physics
-        type: SUBMODULE
-        children:
-          - id: 6b5c45fe-c200-4e35-95a9-a80daae0e739
-            name: Atomic Physics Information
-            type: SCORM
-            entrypoint: index.html
-          - id: 238afb9e-5ec4-4379-bd25-1c3ada55762e
-            name: Knowledge Check
-            type: SCORM
-            entrypoint: index.html
-      - id: 17599636-d226-4e45-b657-70f23e1ec8b5
-        name: Electrical Physics
-        type: SUBMODULE
-        children:
-          - id: 16bc83bf-1b30-48a9-802f-017627ef79cc
-            name: Electrical Physics Information
-            type: SCORM
-            entrypoint: index.html
-          - id: fa6f84cf-c4e1-4923-88e6-634c14959f2a
-            name: Knowledge Check
-            type: SCORM
-            entrypoint: index.html
-      - id: f69b5033-696c-4d8b-9057-3a58ba7f74e6
-        name: Light Physics
-        type: SUBMODULE
-        children:
-          - id: edaf3a8e-b1bc-4a85-9514-72dcfa6574b6
-            name: Light Physics Information
-            type: SCORM
-            entrypoint: index.html
-          - id: 61b403eb-88b6-41cf-b3cb-1f4373306de9
-            name: Knowledge Check
-            type: SCORM
-            entrypoint: index.html
-      - id: e2db5a87-c3e4-447a-81b5-6338ed93bc54
-        name: Mechanical Physics
-        type: SUBMODULE
-        children:
-          - id: 2545e3f7-9951-4b1b-b7a4-e6832f6e2c2b
-            name: Mechanical Physics Information
-            type: SCORM
-            entrypoint: index.html
-          - id: 6152ed98-d013-4157-8452-2ce3014ec9f4
-            name: Knowledge Check
-            type: SCORM
-            entrypoint: index.html
-      - id: e1978c20-8432-42cd-a7f8-a2152128091f
-        name: Sound Physics
-        type: SUBMODULE
-        children:
-          - id: dc948dd2-ad7f-4f9e-881a-4f9cd9538102
-            name: Sound Physics Information
-            type: SCORM
-            entrypoint: index.html
-          - id: f9d2f6ad-5bc9-42f6-a036-28ecce3357de
-            name: Knowledge Check
-            type: SCORM
-            entrypoint: index.html
-      - id: fb0f0638-b082-4019-83b1-0499aee18948
-        name: Thermodynamics
-        type: SUBMODULE
-        children:
-          - id: 09e42384-46c6-4fab-925b-806523178d36
-            name: Thermodynamics Information
-            type: SCORM
-            entrypoint: index.html
-          - id: 0cffb6ac-a31b-4683-b847-9a8c56021228
-            name: Knowledge Check
-            type: SCORM
-            entrypoint: index.html
-    name: Physical Science
-    roleIds:
-      - 381c0acb-fac4-47e2-b358-b822eccad425
-    img: 96b44522-c384-4352-aaff-474a602f950c.jpg
-    paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
-      2025-4631, Cleared 15 Sep 2025"
-    timeToComplete: 1500
-  - id: fe93503e-29e7-4203-90ec-7cec7ac6dc41
-    contents:
-      - id: 72eb7d38-beb8-4e4c-854e-9ee492d13e6e
-        name: Learning Objectives
-        type: SCORM
-        entrypoint: index.html
-      - id: 59b2b4f7-44cb-417f-afb0-94eabda9fa1a
-        name: Background Information
-        type: SCORM
-        entrypoint: index.html
-      - id: 5edef4d5-5563-4572-acf2-b6af235be95f
-        name: Strategies for Studying
-        type: SCORM
-        entrypoint: index.html
-      - id: 8cf991de-d9a9-4dbc-a558-20553f297e07
-        name: Parts of a Word
-        type: SCORM
-        entrypoint: index.html
-      - id: 62ae7798-4f7f-402f-b010-f8aeeed1640f
+      - id: 6aa918f7-3aef-4121-a332-7cb55bf6ec8f
         name: Example Walkthrough
         type: SCORM
         entrypoint: index.html
-      - id: a7d60df3-70f6-4408-b825-76843c6680b5
-        name: Knowledge Check I
+      - id: 7f980466-d48a-490a-b6c9-30c2394b3263
+        name: Knowledge Check
         type: SCORM
         entrypoint: index.html
-      - id: 830cc584-ec3c-4903-8a6f-321f3ffb8230
-        name: Knowledge Check II
+      - id: 0c4616e0-72e8-4c80-a685-22bc6cf3b499
+        name: Answer Key
+        type: PDF
+        entrypoint: index.pdf
+    name: Table Reading
+    roleIds:
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - 657c20e2-f03b-45f4-9943-ab23cee68f6b
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    img: 4bce0b59-b96f-4df5-9676-24dc38360f26.jpg
+    paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
+      2025-4501, Cleared 8 Sept 2025"
+  - id: c0e4f96f-814e-4b42-8b56-209867cab293
+    contents:
+      - id: 8634350f-813c-4f0f-b1d9-fbb4eb43aa0f
+        name: Learning Objectives
         type: SCORM
         entrypoint: index.html
+      - id: 96ee28e6-747d-4f4c-8582-1274b075cb87
+        name: Background
+        type: SCORM
+        entrypoint: index.html
+      - id: 31eca1f2-542e-42d2-b09c-71489d6c3b8b
+        name: Compass Dials
+        type: SCORM
+        entrypoint: index.html
+      - id: b66a6ee0-7dea-41ce-8eb0-7865318d5157
+        name: Artificial Horizon
+        type: SCORM
+        entrypoint: index.html
+      - id: 3877870c-df87-45de-ab9c-373499ef710e
+        name: Visuospatial Resources
+        type: PDF
+        entrypoint: index.pdf
+      - id: d5a0e507-bf7f-4e0e-a7a0-7e71d2c9b521
+        name: Combination Compass Dials & Artificial Horizon
+        type: SCORM
+        entrypoint: index.html
+      - id: a7210279-6c08-42b5-9a02-f7e90de1c594
+        name: Knowledge Check
+        type: SCORM
+        entrypoint: index.html
+      - id: c0dd66dd-de58-4c3e-9bad-3bd2de3ed68e
+        name: Answer Key
+        type: PDF
+        entrypoint: index.pdf
+    name: Instrument Comprehension
+    roleIds:
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - 657c20e2-f03b-45f4-9943-ab23cee68f6b
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    img: 136beddd-263d-4532-931c-3da9c6a009ec.jpg
+    paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
+      2025-4631, Cleared 15 Sept 2025"
+  - id: 646dec4f-0ced-4699-9927-4fe68ed8d57c
+    contents:
+      - id: 3befd9cf-3c9d-4f6d-8c3d-6ebb492afc16
+        name: Learning Objectives
+        type: SCORM
+        entrypoint: index.html
+      - id: 1badc3fe-9c13-47ab-92ba-cc966722f4af
+        name: Basics
+        type: SCORM
+        entrypoint: index.html
+      - id: f8efb956-c22a-4f5e-babe-65b7d18fcb1c
+        name: Example Walkthrough
+        type: SCORM
+        entrypoint: index.html
+      - id: bcf9ea5d-d659-4bc8-816a-b339bda04114
+        name: Knowledge Check
+        type: SCORM
+        entrypoint: index.html
+      - id: cb049e0d-0020-450f-9cae-99e361b0c19c
+        name: Answer Key
+        type: PDF
+        entrypoint: index.pdf
+    name: Block Counting
+    roleIds:
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - 657c20e2-f03b-45f4-9943-ab23cee68f6b
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    img: 3ac6989d-8ffb-4115-a385-d733b91497ad.jpg
+    paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
+      2025-4501, Cleared 8 Sept 2025"
+  - id: 298f967e-298a-48d4-aeb2-cf883f53ba38
+    contents:
+      - id: 5baaa523-8ed5-4b40-bc07-d4063eb94835
+        name: Learning Objectives
+        type: SCORM
+        entrypoint: index.html
+      - id: f3e208b3-2250-41f6-88c4-c10128fca496
+        name: Background Information
+        type: SCORM
+        entrypoint: index.html
+      - id: 62425b80-cde2-464d-9ca7-5405ef5781b8
+        name: Structure and Steps
+        type: SCORM
+        entrypoint: index.html
+      - id: 0084ea38-fdd2-4db3-be3f-032b8e2f00e8
+        name: SJT Competencies
+        type: SCORM
+        entrypoint: index.html
+      - id: da90874f-70d9-4ac5-b3ab-f50f3aa0cc1d
+        name: Example Walkthrough
+        type: SCORM
+        entrypoint: index.html
+      - id: f957fc9b-20fb-4b3e-9b21-d58ec9a1fc52
+        name: Knowledge Check
+        type: SCORM
+        entrypoint: index.html
+    name: Situational Judgment Test (SJT)
+    roleIds:
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    img: ee5ab62b-5597-4bfb-bae2-d4fd50d0cdd8.jpg
+    paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
+      2025-4631, Cleared 15 Sept 2025"
+  - id: 8ce7d58e-97be-4fde-bae8-438098bf7127
+    contents:
+      - id: a0bc8d13-50da-4036-b2ae-31545afffd4f
+        name: Learning Objectives
+        type: SCORM
+        entrypoint: index.html
+      - id: 79a7146d-65a6-47f1-9e98-8d468b78f744
+        name: Brief Overview
+        type: SCORM
+        entrypoint: index.html
+      - id: 72706620-49e1-4317-a5ba-99d6d1e67ff7
+        name: Background Information
+        type: SCORM
+        entrypoint: index.html
+      - id: 3b3dad39-5c74-4224-a4d6-a9c82778b75e
+        name: Astronomy
+        type: SUBMODULE
+        children:
+          - id: 47cbbdfa-b354-4019-84d2-34dabc6efbcb
+            name: Astronomy Information
+            type: SCORM
+            entrypoint: index.html
+          - id: d7572677-ea79-41e6-8304-100e560e3dba
+            name: Knowledge Check
+            type: SCORM
+            entrypoint: index.html
+          - id: aff3342f-e03f-480a-b93a-99dc50b1242a
+            name: Answer Key
+            type: PDF
+            entrypoint: index.pdf
+      - id: 0948d134-5d71-4267-9588-1e18ed313bd6
+        name: Chemistry
+        type: SUBMODULE
+        children:
+          - id: 91b13687-f2b4-4aa2-827b-6aa153c1c03a
+            name: Chemistry Information
+            type: SCORM
+            entrypoint: index.html
+          - id: fd633254-b5ed-487d-9c57-fac79faf7ce5
+            name: Knowledge Check
+            type: SCORM
+            entrypoint: index.html
+          - id: bf9e2aa4-0499-4257-abeb-c1a1aa532404
+            name: Answer Key
+            type: PDF
+            entrypoint: index.pdf
+      - id: c52828c8-5d26-44a5-ba70-c9529d6fea0b
+        name: Atomic Physics
+        type: SUBMODULE
+        children:
+          - id: 728baddc-a9c5-4a40-af85-17fd621f0dfc
+            name: Atomic Physics Information
+            type: SCORM
+            entrypoint: index.html
+          - id: 75313951-b744-4d90-b570-c060aa3fd775
+            name: Knowledge Check
+            type: SCORM
+            entrypoint: index.html
+          - id: 468e589d-fbfa-4185-a087-7b6e96ea3aa7
+            name: Answer Key
+            type: PDF
+            entrypoint: index.pdf
+      - id: 094d0a45-a4f8-4eed-8748-fba864bae1c9
+        name: Electrical Physics
+        type: SUBMODULE
+        children:
+          - id: 265ff697-cf0c-4f82-8123-510a1e9b7f90
+            name: Electrical Physics Information
+            type: SCORM
+            entrypoint: index.html
+          - id: 9e6f4d62-2d21-40d9-88e8-42d6216b266b
+            name: Knowledge Check
+            type: SCORM
+            entrypoint: index.html
+          - id: de313519-9404-4b9e-9abf-9cab763d76c4
+            name: Answer Key
+            type: PDF
+            entrypoint: index.pdf
+      - id: 001cc95e-8b53-4109-a6bb-4e1c136e31c8
+        name: Light Physics
+        type: SUBMODULE
+        children:
+          - id: 2b96926f-408d-4461-9f03-c8b652bef192
+            name: Light Physics Information
+            type: SCORM
+            entrypoint: index.html
+          - id: c196f794-af26-4f50-b3ee-9de22329748b
+            name: Knowledge Check
+            type: SCORM
+            entrypoint: index.html
+          - id: 25c27f6a-23e6-4665-9fcc-2dab7cdab389
+            name: Answer Keys
+            type: PDF
+            entrypoint: index.pdf
+      - id: 7b1f8f1f-06a6-4df3-b89f-93a73559a2f3
+        name: Mechanical Physics
+        type: SUBMODULE
+        children:
+          - id: 88c26bbf-7707-477a-a88e-ec7b2c03aafb
+            name: Mechanical Physics Information
+            type: SCORM
+            entrypoint: index.html
+          - id: 816d9b72-4e93-4834-a062-84e5eef4809c
+            name: Knowledge Check
+            type: SCORM
+            entrypoint: index.html
+          - id: fdbce421-a4a2-45c9-a4d9-72a6ee5d6792
+            name: Answer Key
+            type: PDF
+            entrypoint: index.pdf
+      - id: 3cf63ff6-db6c-41a0-996b-2a9fdc86d932
+        name: Sound Physics
+        type: SUBMODULE
+        children:
+          - id: aef555d5-d683-4089-8d01-0f49ab866b25
+            name: Sound Physics Information
+            type: SCORM
+            entrypoint: index.html
+          - id: 840ddae8-06e4-4412-85fe-3efce5fa37af
+            name: Knowledge Check
+            type: SCORM
+            entrypoint: index.html
+          - id: 9e1e073e-b003-4b6a-808b-662689115a37
+            name: Answer Key
+            type: PDF
+            entrypoint: index.pdf
+      - id: 9cd29b58-236c-4a03-a5ce-ab6f4f0b8157
+        name: Thermodynamics
+        type: SUBMODULE
+        children:
+          - id: 64f82169-5db2-4de9-8755-a13c3bb2926f
+            name: Thermodynamics Information
+            type: SCORM
+            entrypoint: index.html
+          - id: f4089452-3ca9-45c2-a6bb-1466427beb43
+            name: Knowledge Check
+            type: SCORM
+            entrypoint: index.html
+          - id: 32a570db-18d0-4491-884d-3c26d36682e1
+            name: Answer Key
+            type: PDF
+            entrypoint: index.pdf
+    name: Physical Science
+    roleIds:
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    img: 34cc61d6-dbf1-4401-8cc0-d2b2d99a58bd.jpg
+    paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
+      2025-4631, Cleared 15 Sept 2025"
+  - id: 3e5d28fa-c7a1-4a45-9839-f1e6cf85c49e
+    contents:
+      - id: 4da8ac52-ef11-4ab9-aeac-28c9b70cbd5f
+        name: Learning Objectives
+        type: SCORM
+        entrypoint: index.html
+      - id: 2d7cb5c4-a731-4f9d-8937-5994cac6042e
+        name: Background Information
+        type: SCORM
+        entrypoint: index.html
+      - id: c4e6b9d3-4d4e-4c4f-a1ba-4b698858573b
+        name: Strategies for Studying
+        type: SCORM
+        entrypoint: index.html
+      - id: 3bd92f92-2222-41a5-94f6-98190071b10d
+        name: Parts of a Word
+        type: SCORM
+        entrypoint: index.html
+      - id: 24f8797b-7e4b-459e-8316-f988c00aa247
+        name: Example Walkthrough
+        type: SCORM
+        entrypoint: index.html
+      - id: 4368dc36-6f92-4572-b429-7d574c665d28
+        name: Knowledge Check
+        type: SCORM
+        entrypoint: index.html
+      - id: 101b9a56-d601-4ac3-a6b1-1d22d3d570e9
+        name: Answer Key
+        type: PDF
+        entrypoint: index.pdf
     name: Word Knowledge
     roleIds:
-      - 381c0acb-fac4-47e2-b358-b822eccad425
-    img: ee4f54a0-1953-43a5-85f7-51e59afe978f.jpg
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - a0cd90e0-73c3-4f9b-ba5e-4143d0fd65bc
+      - 4a538cb7-bba5-4c1c-9d41-acdc70aa98cf
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    img: 27e307a4-7cd9-4af4-bcd7-7ff723526d64.jpg
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
-      2025-4631, Cleared 15 Sep 2025"
-    timeToComplete: 840
+      2025-4631, Cleared 15 Sept 2025"
+  - id: 193fa673-6303-435d-b31c-868c0b0ef219
+    contents:
+      - id: 6262e5ae-9aeb-435b-b5e0-bbc063065743
+        name: Learning Objectives
+        type: SCORM
+        entrypoint: index.html
+      - id: 1e0762e9-9f52-4cf5-a974-793b4aa166d3
+        name: TBAS Overview
+        type: SCORM
+        entrypoint: index.html
+      - id: 25cc86fc-0267-4739-bb66-15765d2e7446
+        name: TBAS Testing Locations
+        type: PDF
+        entrypoint: index.pdf
+      - id: 8c77562b-d045-4345-96ea-a2883e44dafe
+        name: TBAS Candidate Worksheet
+        type: PDF
+        entrypoint: index.pdf
+      - id: c8f648a9-2f1f-4e05-b764-5d0115119e54
+        name: Direction Orientation Test
+        type: SCORM
+        entrypoint: index.html
+      - id: 9b1333ad-65e4-419a-ad88-98ae35380ddb
+        name: Tracking Tests (Horizontal/Airplane/Combined)
+        type: SCORM
+        entrypoint: index.html
+      - id: 40ee1ab2-d929-48c7-b163-eaf2b101b621
+        name: Multi-Tasking Test
+        type: SCORM
+        entrypoint: index.html
+    name: TBAS Basics
+    roleIds:
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - 657c20e2-f03b-45f4-9943-ab23cee68f6b
+      - c629e018-63be-4c12-9456-1773a85e4519
+    img: 4f3804df-16ec-468c-bcfb-f0d8cb055e6a.jpg
+    paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
+      2025-4782, Cleared 23 Sept 2025"
   - id: 93e95134-3b8c-4243-9043-51aa6bf0c976
     contents:
       - id: 811535ba-1693-4d25-a865-d7431e912596
@@ -761,11 +983,344 @@ courses:
         entrypoint: index.html
     name: TBAS Practice
     roleIds:
-      - 381c0acb-fac4-47e2-b358-b822eccad425
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - 657c20e2-f03b-45f4-9943-ab23cee68f6b
+      - c629e018-63be-4c12-9456-1773a85e4519
     img: 595892f1-3089-4ecf-86ff-12dcc2aba5ae.jpg
     paNumber: "Distribution Statement A: Approved For Public Release. AFRL,
       2025-4631, Cleared 15 Sep 2025"
     timeToComplete: 480
-prequizzes: []
-postquizzes: []
-goals: []
+prequizzes:
+  - id: b9fe76ac-224d-4bb5-a16d-a5a70ea97866
+    contents:
+      - id: b199aec7-98dc-49bd-8977-bdec40549d74
+        name: Introduction
+        type: SCORM
+        entrypoint: index.html
+    name: Intro-pre
+    roleIds:
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - c629e018-63be-4c12-9456-1773a85e4519
+      - a0cd90e0-73c3-4f9b-ba5e-4143d0fd65bc
+      - 1c9f7b6a-c718-4fb7-9352-f026f529ba5c
+      - 4a538cb7-bba5-4c1c-9d41-acdc70aa98cf
+      - 657c20e2-f03b-45f4-9943-ab23cee68f6b
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    paNumber: Approved_by_AFRL_IRB_Protocol_FWR20260003E v1.00_10_DEC_2025
+  - id: ef8cf210-95db-4317-83f8-94f01003d075
+    contents:
+      - id: 05c6a5d8-624a-40a7-a73d-1f68ded02a47
+        name: Verbal Analogies
+        type: SCORM
+        entrypoint: index.html
+    name: VA-pre
+    roleIds:
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - a0cd90e0-73c3-4f9b-ba5e-4143d0fd65bc
+      - 4a538cb7-bba5-4c1c-9d41-acdc70aa98cf
+      - 657c20e2-f03b-45f4-9943-ab23cee68f6b
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    paNumber: Approved_by_AFRL_IRB_Protocol_FWR20260003E v1.00_10_DEC_2025
+  - id: ae5e7d89-6256-41b3-bde1-d7cd277f5659
+    contents:
+      - id: 04da0fb0-c72e-4ea3-bd4a-1778bce1cc98
+        name: Arithmetic Reasoning
+        type: SCORM
+        entrypoint: index.html
+    name: AR-pre
+    roleIds:
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - a0cd90e0-73c3-4f9b-ba5e-4143d0fd65bc
+      - 1c9f7b6a-c718-4fb7-9352-f026f529ba5c
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    paNumber: Approved_by_AFRL_IRB_Protocol_FWR20260003E v1.00_10_DEC_2025
+  - id: db373a3f-e687-45e6-b234-dd959938a183
+    contents:
+      - id: bca6aa31-10e8-4921-bc99-71d827a9cdb3
+        name: Word Knowledge
+        type: SCORM
+        entrypoint: index.html
+    name: WK-pre
+    roleIds:
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - a0cd90e0-73c3-4f9b-ba5e-4143d0fd65bc
+      - 4a538cb7-bba5-4c1c-9d41-acdc70aa98cf
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    paNumber: Approved_by_AFRL_IRB_Protocol_FWR20260003E v1.00_10_DEC_2025
+  - id: 524197fc-89f8-4a7a-94cb-f0d9e2ae1501
+    contents:
+      - id: 97ec5e75-0b99-49f5-9bfa-b5ddd04371be
+        name: Math Knowledge
+        type: SCORM
+        entrypoint: index.html
+    name: MK-pre
+    roleIds:
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - a0cd90e0-73c3-4f9b-ba5e-4143d0fd65bc
+      - 1c9f7b6a-c718-4fb7-9352-f026f529ba5c
+      - 657c20e2-f03b-45f4-9943-ab23cee68f6b
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    paNumber: Approved_by_AFRL_IRB_Protocol_FWR20260003E v1.00_10_DEC_2025
+  - id: cdc38277-c7a7-4f0f-be94-95ba81cfd483
+    contents:
+      - id: 7e81bd10-4c1f-47f0-991a-65a752f4f88e
+        name: Reading Comprehension
+        type: SCORM
+        entrypoint: index.html
+    name: RC-pre
+    roleIds:
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - a0cd90e0-73c3-4f9b-ba5e-4143d0fd65bc
+      - 4a538cb7-bba5-4c1c-9d41-acdc70aa98cf
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    paNumber: Approved_by_AFRL_IRB_Protocol_FWR20260003E v1.00_10_DEC_2025
+  - id: 1277167c-3ce4-40bc-a60f-c03c3d953e3a
+    contents:
+      - id: f681477c-30c4-41d2-9323-90be42747f62
+        name: Physical Science
+        type: SCORM
+        entrypoint: index.html
+    name: PS-pre
+    roleIds:
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    paNumber: Approved_by_AFRL_IRB_Protocol_FWR20260003E v1.00_10_DEC_2025
+  - id: c41098b2-0af9-4e4a-9c20-707936c0860b
+    contents:
+      - id: 9ed8ae4b-bcf1-456b-9880-83c988d3df61
+        name: Table Reading
+        type: SCORM
+        entrypoint: index.html
+    name: TR-pre
+    roleIds:
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - 657c20e2-f03b-45f4-9943-ab23cee68f6b
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    paNumber: Approved_by_AFRL_IRB_Protocol_FWR20260003E v1.00_10_DEC_2025
+  - id: 9fcabd44-f9ce-4ca1-a24f-8c1fb40155cc
+    contents:
+      - id: c0a871ce-fbdf-404c-af71-e7bf85acf549
+        name: Instrument Comprehension
+        type: SCORM
+        entrypoint: index.html
+    name: IC-pre
+    roleIds:
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - 657c20e2-f03b-45f4-9943-ab23cee68f6b
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    paNumber: Approved_by_AFRL_IRB_Protocol_FWR20260003E v1.00_10_DEC_2025
+  - id: b68019fd-e6a9-4210-89ad-ba3f977559b5
+    contents:
+      - id: 136b5508-a4c7-4c92-b7dc-9f7dd9f16d21
+        name: Block Counting
+        type: SCORM
+        entrypoint: index.html
+    name: BC-pre
+    roleIds:
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - 657c20e2-f03b-45f4-9943-ab23cee68f6b
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    paNumber: Approved_by_AFRL_IRB_Protocol_FWR20260003E v1.00_10_DEC_2025
+  - id: 58619168-2731-475c-8863-46df2a007aea
+    contents:
+      - id: 4fe18e2f-b38a-42d7-b94f-87d60a94b816
+        name: Aviation Information
+        type: SCORM
+        entrypoint: index.html
+    name: AI-pre
+    roleIds:
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - 657c20e2-f03b-45f4-9943-ab23cee68f6b
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    paNumber: Approved_by_AFRL_IRB_Protocol_FWR20260003E v1.00_10_DEC_2025
+postquizzes:
+  - id: f22b4395-88f0-4e4a-b113-96b04d702f73
+    contents:
+      - id: cc27204a-2267-4dfd-a57b-bf997373d288
+        name: Intro_Demo_React
+        type: SCORM
+        entrypoint: index.html
+    name: Intro_Demo_React
+    roleIds:
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - c629e018-63be-4c12-9456-1773a85e4519
+      - a0cd90e0-73c3-4f9b-ba5e-4143d0fd65bc
+      - 1c9f7b6a-c718-4fb7-9352-f026f529ba5c
+      - 4a538cb7-bba5-4c1c-9d41-acdc70aa98cf
+      - 657c20e2-f03b-45f4-9943-ab23cee68f6b
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    paNumber: Approved_by_AFRL_IRB_Protocol_FWR20260003E v1.00_10_DEC_2025
+  - id: 0012ddac-0e0b-4bee-86fd-0fbffaf2db2a
+    contents:
+      - id: 1ec796f4-a152-40fd-bcd1-b80135e41bf9
+        name: Verbal Analogies
+        type: SCORM
+        entrypoint: index.html
+    name: VA-post
+    roleIds:
+      - a0cd90e0-73c3-4f9b-ba5e-4143d0fd65bc
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - 4a538cb7-bba5-4c1c-9d41-acdc70aa98cf
+      - 657c20e2-f03b-45f4-9943-ab23cee68f6b
+      - c629e018-63be-4c12-9456-1773a85e4519
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    paNumber: Approved_by_AFRL_IRB_Protocol_FWR20260003E v1.00_10_DEC_2025
+  - id: 25865abe-6bea-4975-ac47-4f307e5ea8fc
+    contents:
+      - id: d621b624-551b-450d-bd34-efea56e0af68
+        name: Arithmetic Reasoning
+        type: SCORM
+        entrypoint: index.html
+    name: AR-post
+    roleIds:
+      - 1c9f7b6a-c718-4fb7-9352-f026f529ba5c
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - a0cd90e0-73c3-4f9b-ba5e-4143d0fd65bc
+      - c629e018-63be-4c12-9456-1773a85e4519
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    paNumber: Approved_by_AFRL_IRB_Protocol_FWR20260003E v1.00_10_DEC_2025
+  - id: 992cd662-66a6-4f4f-897b-c7a918d1fcd3
+    contents:
+      - id: b3e533d4-aec4-43ca-b7e2-ba2eab11c9d8
+        name: Word Knowledge
+        type: SCORM
+        entrypoint: index.html
+    name: WK-post
+    roleIds:
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - a0cd90e0-73c3-4f9b-ba5e-4143d0fd65bc
+      - 4a538cb7-bba5-4c1c-9d41-acdc70aa98cf
+      - c629e018-63be-4c12-9456-1773a85e4519
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    paNumber: Approved_by_AFRL_IRB_Protocol_FWR20260003E v1.00_10_DEC_2025
+  - id: 3581a3fb-2396-483e-8531-f1a867e40f10
+    contents:
+      - id: 386348c1-fc01-43c6-9bbc-0c13d7fd272a
+        name: Math Knowledge
+        type: SCORM
+        entrypoint: index.html
+    name: MK-post
+    roleIds:
+      - 657c20e2-f03b-45f4-9943-ab23cee68f6b
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - a0cd90e0-73c3-4f9b-ba5e-4143d0fd65bc
+      - 1c9f7b6a-c718-4fb7-9352-f026f529ba5c
+      - c629e018-63be-4c12-9456-1773a85e4519
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    paNumber: Approved_by_AFRL_IRB_Protocol_FWR20260003E v1.00_10_DEC_2025
+  - id: e846f436-90ad-4e2a-a264-61f5d47dfb06
+    contents:
+      - id: 2aab9709-f4d6-4bfa-94bc-42e25096d7e4
+        name: Reading Comprehension
+        type: SCORM
+        entrypoint: index.html
+    name: RC-post
+    roleIds:
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - a0cd90e0-73c3-4f9b-ba5e-4143d0fd65bc
+      - 4a538cb7-bba5-4c1c-9d41-acdc70aa98cf
+      - c629e018-63be-4c12-9456-1773a85e4519
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    paNumber: Approved_by_AFRL_IRB_Protocol_FWR20260003E v1.00_10_DEC_2025
+  - id: fcee28fe-9994-4165-9f27-5cc7a97dc51b
+    contents:
+      - id: 3ee481e8-19d2-402d-ba87-c7d0fa67a3be
+        name: Physical Science
+        type: SCORM
+        entrypoint: index.html
+    name: PS-post
+    roleIds:
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - c629e018-63be-4c12-9456-1773a85e4519
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    paNumber: Approved_by_AFRL_IRB_Protocol_FWR20260003E v1.00_10_DEC_2025
+  - id: 3bd3d5d2-6c82-4362-8f64-1af53b9cb8cb
+    contents:
+      - id: 3ecc57be-9b9a-4c94-a3a0-1e1ee94c61c2
+        name: Table Reading
+        type: SCORM
+        entrypoint: index.html
+    name: TR-post
+    roleIds:
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - c629e018-63be-4c12-9456-1773a85e4519
+      - 657c20e2-f03b-45f4-9943-ab23cee68f6b
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    paNumber: Approved_by_AFRL_IRB_Protocol_FWR20260003E v1.00_10_DEC_2025
+  - id: f8b3c986-b6ff-4bf6-98e2-f13575e6f5ca
+    contents:
+      - id: 6662f5cf-e25a-4baa-b916-95ecfc61b5a2
+        name: Instrument Comprehension
+        type: SCORM
+        entrypoint: index.html
+    name: IC-post
+    roleIds:
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - c629e018-63be-4c12-9456-1773a85e4519
+      - 657c20e2-f03b-45f4-9943-ab23cee68f6b
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    paNumber: Approved_by_AFRL_IRB_Protocol_FWR20260003E v1.00_10_DEC_2025
+  - id: 7be8da94-07a8-453c-b228-861443635a07
+    contents:
+      - id: 0efe55fa-0027-4e38-ad7e-76adb2028615
+        name: Block Counting
+        type: SCORM
+        entrypoint: index.html
+    name: BC-post
+    roleIds:
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - 657c20e2-f03b-45f4-9943-ab23cee68f6b
+      - c629e018-63be-4c12-9456-1773a85e4519
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    paNumber: Approved_by_AFRL_IRB_Protocol_FWR20260003E v1.00_10_DEC_2025
+  - id: 238a0046-0bbf-4a42-b356-1b2e65aa04cb
+    contents:
+      - id: dbeb74e4-af8f-46a6-a5c0-6346db40862f
+        name: Aviation Information
+        type: SCORM
+        entrypoint: index.html
+    name: AI-post
+    roleIds:
+      - 992847c9-a2a4-40a8-a524-24f5ed18ee35
+      - 657c20e2-f03b-45f4-9943-ab23cee68f6b
+      - c629e018-63be-4c12-9456-1773a85e4519
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+    paNumber: Approved_by_AFRL_IRB_Protocol_FWR20260003E v1.00_10_DEC_2025
+goals:
+  - id: a42f0065-3166-48b4-b145-629f86daf3c3
+    name: I want to be ready for my first time taking both the AFOQT and TBAS
+    roleIDs:
+      - 381c0acb-fac4-47e2-b358-b822eccad425
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
+      - c629e018-63be-4c12-9456-1773a85e4519
+  - id: 14b883e4-e648-4f6f-adc5-ecdafbbdbbe4
+    name: "I want to improve my Academic Scores on AFOQT "
+    roleIDs:
+      - 381c0acb-fac4-47e2-b358-b822eccad425
+      - 1c9f7b6a-c718-4fb7-9352-f026f529ba5c
+      - 4a538cb7-bba5-4c1c-9d41-acdc70aa98cf
+  - id: 1f087485-0c1c-4ad6-9d57-450e9df2634e
+    name: I want to improve my Quantitative Scores on AFOQT
+    roleIDs:
+      - 381c0acb-fac4-47e2-b358-b822eccad425
+      - 1c9f7b6a-c718-4fb7-9352-f026f529ba5c
+  - id: d2b99251-efda-4f9b-8d97-a5026d932cc0
+    name: I want to improve my Verbal Scores on AFOQT
+    roleIDs:
+      - 381c0acb-fac4-47e2-b358-b822eccad425
+      - 4a538cb7-bba5-4c1c-9d41-acdc70aa98cf
+  - id: 756dd092-c255-4dda-ad6d-b9d14ba79f51
+    name: I want to improve my Rated Career Field Scores
+    roleIDs:
+      - 381c0acb-fac4-47e2-b358-b822eccad425
+      - 657c20e2-f03b-45f4-9943-ab23cee68f6b
+  - id: 733f9edf-4d92-41e4-8e58-73f332e21249
+    name: I want to improve my scores on just the TBAS
+    roleIDs:
+      - 381c0acb-fac4-47e2-b358-b822eccad425
+      - c629e018-63be-4c12-9456-1773a85e4519
+  - id: bc44d08d-dfab-4732-adf8-96417410bb99
+    name: I want to be ready for my first time taking JUST the AFOQT
+    roleIDs:
+      - 381c0acb-fac4-47e2-b358-b822eccad425
+      - 74f9875b-3868-49e8-82d4-7441e2727de9
