@@ -1,6 +1,6 @@
 schema: "2.0"
-versionNumber: 0.5.4
-allowDataCollection: false
+versionNumber: 0.5.6
+allowDataCollection: true
 roles:
   - id: 381c0acb-fac4-47e2-b358-b822eccad425
     name: Default
