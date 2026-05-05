@@ -1,5 +1,5 @@
 schema: "2.0"
-versionNumber: 1.0.0
+versionNumber: 1.0.1
 allowDataCollection: true
 roles:
   - id: 381c0acb-fac4-47e2-b358-b822eccad425
